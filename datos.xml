@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<datos propietario="raulantoniocarracocamacho-collab">
+<Personaje id="a01">
+      <Nombre> Kratos </Nombre>
+      <Descripción> Kratos, también conocido como el fantasma de Esparta, es el protagonista principal de toda esta saga, se convirtió en el dios de la guerra tras asesinar al Ares, el anterior Dios de la guerra</Descripción>
+
+</Personaje>
+<Personaje id="a02">
+    <Nombre> Atreus </Nombre>
+    <Descripción> Atreus, también llamado Loki, es el hijo de Kratos y Faye, Atreus es el dios del engaño, siendo un semidios y un semigigante por parte materna, 
+</Personaje>
+<Personaje id="a03">
+      <Nombre> Zeus </Nombre>
+      <Descripción> Zeus, el dios del rayo y padre de los dioses griegos, es el antagonista pricipal en la segunda y tercera entrega de la saga, también siendo el jefe final de ambos juegos. </Descripción>
+</Personaje>
+</datos>
