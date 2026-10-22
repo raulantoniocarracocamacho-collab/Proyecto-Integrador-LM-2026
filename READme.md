@@ -1,4 +1,4 @@
-<!-- Plantilla: completa los campos entre corchetes con tus datos. -->
+<!-- Plantilla: completa los campos entre corchetes con tus datos -->
 
 # Mi proyecto web
 
