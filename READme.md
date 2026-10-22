@@ -7,7 +7,7 @@
 - **Nombre:** Raúl Antonio Carrasco Camacho
 - **Tema elegido:** Saga de videojuegos GOD OF WAR (GOW)
 
-- **razón de la elección:**Elegí la serie de GOW por ser una gran serie y una obra maestra del diseño de videojuegos, que destaca no solo por su intensa acción y su imponente mitología, sino también por la profunda evolución narrativa y psicológica de su protagonista, Kratos, a lo largo de las eras griega y nórdica.
+- **razón de la elección:** Elegí la serie de GOW por ser una gran serie y una obra maestra del diseño de videojuegos, que destaca no solo por su intensa acción y su imponente mitología, sino también por la profunda evolución narrativa y psicológica de su protagonista, Kratos, a lo largo de las eras griega y nórdica.
 
 ## Palabra del día 22.10.2026
 
