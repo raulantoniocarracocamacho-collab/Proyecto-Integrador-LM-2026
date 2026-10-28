@@ -22,3 +22,7 @@ Este proyecto consiste en un análisis detallado de la saga de videojuegos God o
 - `index.html`: página web de presentación del tema.
 - `datos.xml`: datos de los elementos incluidos en la página.
 - `img/`: carpeta para las imágenes del proyecto.
+
+## UD3 · Estructura HTML
+
+- `Sin errores`. No pude encontrar ningun elemento faltante y al verificarlo con el validador proporcionado no mostro errores
