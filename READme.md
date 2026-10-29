@@ -27,6 +27,9 @@ Este proyecto consiste en un análisis detallado de la saga de videojuegos God o
 
 - `Meta datos`. Aunque si posea de meta datos, la cantidad de estos presentes en index.html podría resultar insuficiente
 - `Sin mas errores`. No pude encontrar ningun otro elemento faltante y al verificarlo con el validador proporcionado no mostro errores
+- `Tras finalizar` este trabajo me dió el unico error de haber olvidado de quitar una etiqueta de cierre div, lo arreglé eliminandola
+
+En esta unidad he realizado 3 paginas extra y añadido información a la pagina que creé sobre la saga GOW, añadiendo información y ordenandola mejor a parte de haber arreglado errores presentes, finalizando por verificar que todo estaba correcto en el validador proporcionado
 
 ## Mapa del sitio
 
