@@ -34,4 +34,4 @@ Este proyecto consiste en un análisis detallado de la saga de videojuegos God o
 |index.html|Inicio.Pagina de la saga de God of War|Presentación e introducción con información general|
 |historia.html|Historia.Juegos de la saga|Historia transcurrida en las entregas mencionadas|
 |personajes.html|Personajes.Dioses mas importantes y relevantes|Información de unos de los personajes mas importantes|
-|fuentes.html|Fuentes de información para esta pagina|La url de la pagina que contiene en pocas palabras toda la información en lo que consta a GOW|
+|fuentes.html|Fuentes de información para esta pagina|La url de la pagina que contiene basicamente toda la información en lo que consta a GOW|
