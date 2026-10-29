@@ -27,3 +27,11 @@ Este proyecto consiste en un análisis detallado de la saga de videojuegos God o
 
 - `Meta datos`. Aunque si posea de meta datos, la cantidad de estos presentes en index.html podría resultar insuficiente
 - `Sin mas errores`. No pude encontrar ningun otro elemento faltante y al verificarlo con el validador proporcionado no mostro errores
+
+## Mapa del sitio
+
+|Fichero|Title|Que contiene|
+|index.html|Inicio.Pagina de la saga de God of War|Presentación e introducción con información general|
+|historia.html|Historia.Juegos de la saga|Historia transcurrida en las entregas mencionadas|
+|personajes.html|Personajes.Dioses mas importantes y relevantes|Información de unos de los personajes mas importantes|
+|fuentes.html|Fuentes de información para esta pagina|La url de la pagina que contiene en pocas palabras toda la información en lo que consta a GOW|
