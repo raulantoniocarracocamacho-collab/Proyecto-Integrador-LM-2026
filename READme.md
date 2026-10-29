@@ -25,4 +25,5 @@ Este proyecto consiste en un análisis detallado de la saga de videojuegos God o
 
 ## UD3 · Estructura HTML
 
-- `Sin errores`. No pude encontrar ningun elemento faltante y al verificarlo con el validador proporcionado no mostro errores
+- `Meta datos`. Aunque si posea de meta datos, la cantidad de estos presentes en index.html podría resultar insuficiente
+- `Sin mas errores`. No pude encontrar ningun otro elemento faltante y al verificarlo con el validador proporcionado no mostro errores
