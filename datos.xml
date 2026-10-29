@@ -28,7 +28,7 @@
   <Personaje id="p03">
     <Nombre> Zeus </Nombre>
     <Descripción>Zeus, el dios del rayo y padre de los dioses griegos, es el antagonista pricipal en la segunda y tercera entrega de la saga griega, también siendo el jefe final de ambos juegos.</Descripción>
-    <DeidadesAsesinadas> 2 </DeidadesAsesinadas>
+    <DeidadesAsesinadas> 1 </DeidadesAsesinadas>
     <Papel> Antagonista principal de la mayoria de la saga griega </Papel>
     </Personaje>
 </datos>
