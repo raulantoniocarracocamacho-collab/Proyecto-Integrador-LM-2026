@@ -11,7 +11,7 @@
 
 ## Palabra del día 22.10.2026
 
-contesto 
+día 
 
 ## De que se trata
 
