@@ -38,9 +38,15 @@ En esta unidad he realizado 3 paginas extra y añadido información a la pagina 
 |juegos.html|juegos.Juegos de la saga|Historia transcurrida en las entregas mencionadas|
 |personajes.html|Personajes.personajes relevantes|Presentación de personajes principales de la saga|
 |contenidogeneral.html|Informacion general.Contenido mas relevante|La información mas relevante de estos|
+|contacto.html|Contacto · consulta del usuario|Contiene un formulario para que el usuario pueda mandar sus opiniones, sugerencias, quejas o reportes de errores|
 
 ## UD5 · Estructura HTML
 Voy a añadir a la tabla datos sobre los juegos mas conocidos de la saga, estos siendo su año de lanzamiento, para que plataforma(s) fue creado, en que saga mitológica toma lugar y el director del juego.
 El formulario servirá para que los usuarios puedan enviar dudas o sugerencias de todo tipo además de reportar los errores si es que hay alguno.
 
 En el reto 3 usé post y no get porque post es mas seguro y privado ya que se envían de forma oculta, no como get que muestra los datos de la URL
+
+|Errores|
+|Al intentar añadir una opción mas de "otro" a contacto.html copié y pegué otra opción que ya tenía lista para solo cambiar unos pocos valores, pero copié la linea que venía seleccionada por defecto y no quité eso, dejando 2 selecteds en una misma pregunta|
+
+Lo que hice fue corregir errores, crear una tabla sobre los juegos mas importantes de la saga con información simple sobre dichos juegos, crear la pagina contacto.html para generar un formulario donde los usuarios puedan dar su opinion, sugerencias, quejas y demás.
