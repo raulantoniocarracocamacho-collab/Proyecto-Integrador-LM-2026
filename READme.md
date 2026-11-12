@@ -42,3 +42,5 @@ En esta unidad he realizado 3 paginas extra y añadido información a la pagina 
 ## UD5 · Estructura HTML
 Voy a añadir a la tabla datos sobre los juegos mas conocidos de la saga, estos siendo su año de lanzamiento, para que plataforma(s) fue creado, en que saga mitológica toma lugar y el director del juego.
 El formulario servirá para que los usuarios puedan enviar dudas o sugerencias de todo tipo además de reportar los errores si es que hay alguno.
+
+En el reto 3 usé post y no get porque post es mas seguro y privado ya que se envían de forma oculta, no como get que muestra los datos de la URL
