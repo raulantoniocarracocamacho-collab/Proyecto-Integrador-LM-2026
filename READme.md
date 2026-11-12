@@ -38,3 +38,7 @@ En esta unidad he realizado 3 paginas extra y añadido información a la pagina 
 |juegos.html|juegos.Juegos de la saga|Historia transcurrida en las entregas mencionadas|
 |personajes.html|Personajes.personajes relevantes|Presentación de personajes principales de la saga|
 |contenidogeneral.html|Informacion general.Contenido mas relevante|La información mas relevante de estos|
+
+## UD5 · Estructura HTML
+Voy a añadir a la tabla datos sobre los juegos mas conocidos de la saga, estos siendo su año de lanzamiento, para que plataforma(s) fue creado, en que saga mitológica toma lugar y el director del juego.
+El formulario servirá para que los usuarios puedan enviar dudas o sugerencias de todo tipo además de reportar los errores si es que hay alguno.
