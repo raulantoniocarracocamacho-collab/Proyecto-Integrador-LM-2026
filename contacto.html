@@ -11,77 +11,98 @@
 </head>
 <body>
   <header>
-    <h1>Contacto</h1>
-  </header>
-  <main>
-    <section>
-      <h2>Envíanos tu consulta</h2>
-      <form action="#" method="post">
-        <fieldset>
-          <legend>Tus datos</legend>
+      <h1>Contacto</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Envíanos tu consulta</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Tus datos</legend>
+            <div>
+              <label for="nombre">Nombre de guerrero:</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Ej.: Kratos" autofocus required minlength="2" maxlength="30">
+            </div>
+            <div>
+              <label for="correo">Correo electrónico:</label>
+              <input type="email" id="correo" name="correo" placeholder="tu@correo.es" required>
+            </div>
+            <div>
+              <label for="telefono">Teléfono de contacto:</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="600000000">
+            </div>
+            <div>
+              <label for="codigo-postal">Código postal:</label>
+              <input type="text" id="codigo-postal" name="codigo_postal" placeholder="41001" pattern="[0-9]{5}" title="Introduce un código postal de 5 dígitos numéricos (por ejemplo, 41001)">
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Tu consulta</legend>
+            <div>
+              <label for="juego">Juego del que desea comentar:</label>
+              <select id="juego" name="juego">
+                <option value="God of War">God of War</option>
+                <option value="God of War II">God of War II</option>
+                <option value="God of War III">God of War III</option>
+                <option value="God of War (2018)">God of War (2018)</option>
+                <option value="God of War Ragnarök">God of War Ragnarök</option>
+                <option value="otro" selected>otro</option>
+              </select>
+            </div>
+            <div>
+              <label for="fecha-consulta">Fecha de la consulta:</label>
+              <input type="date" id="fecha-consulta" name="fecha_consulta" required>
+            </div>
+            <div>
+              <label for="horas-jugadas">Horas jugadas en la saga:</label>
+              <input type="number" id="horas-jugadas" name="horas_jugadas" placeholder="20" min="0" max="1000" step="1" required>
+            </div>
+            <div>
+              <label for="nivel-interes">¿Que tanto te gustan los juegos de esta franquicia? :</label>
+              <input type="range" id="nivel-interes" name="nivel_interes" min="0" max="10" step="1" value="8">
+            </div>
+            <div>
+              <label>Juega desde:</label>
+              <br>
+              <input type="radio" id="mit-griega" name="jugado-desde" value="griega" checked>
+              <label for="mit-griega">La saga griega</label>
+              <input type="radio" id="mit-nordica" name="jugado-desde" value="nordica">
+              <label for="mit-nordica">La saga nórdica</label>
+              <input type="radio" id="ninguna" name="jugado-desde" value="ninguna">
+              <label for="ninguna">No jugué a ningun juego aún</label>
+            </div>
+            <div>
+              <label>¿Que te llamó la atención sobre la saga y te motivó a investigar sobre ella y/o jugarla?</label>
+              <br>
+              <input type="checkbox" id="historia" name="gusto" value="historia">
+              <label for="historia"> Por la interesante historia</label>
+              <input type="checkbox" id="combate" name="gusto" value="combate">
+              <label for="combate"> Por el epico combate</label>
+              <input type="checkbox" id="jugabilidad" name="gusto" value="jugabilidad">
+              <label for="jugabilidad"> Por la buena jugabilidad</label>
+              <input type="checkbox" id="indeciso" name="gusto" value="indeciso">
+              <label for="indeciso"> No estoy seguro</label>
+            </div>
+            <div>
+              <label for="mensaje">Escribe tu mensaje o reporte:</label>
+              <br>
+              <textarea id="mensaje" name="mensaje" rows="4" cols="40" placeholder="Describe tu consulta aquí..." required minlength="10"></textarea>
+            </div>
+          </fieldset>
           <div>
-            <label for="nombre">Nombre de guerrero:</label>
-            <input type="text" id="nombre" name="nombre" autofocus required minlength="2" maxlength="30">
+            <button type="submit">Enviar consulta</button>
+            <button type="reset">Reiniciar</button>
           </div>
-          <div>
-            <label for="correo">Correo electrónico:</label>
-            <input type="email" id="correo" name="correo" placeholder="tu@correo.es" required>
-          </div>
-          <div>
-            <label for="telefono">Teléfono de contacto:</label>
-            <input type="tel" id="telefono" name="telefono" placeholder="600000000">
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend>Tu consulta</legend>
-          <div>
-            <label for="juego">Juego del que desea comentar:</label>
-            <select id="juego" name="juego">
-              <option value="God of War">God of War</option>
-              <option value="God of War II">God of War II</option>
-              <option value="God of War III">God of War III</option>
-              <option value="God of War (2018)">God of War (2018)</option>
-              <option value="God of War Ragnarök">God of War Ragnarök</option>
-              <option value="otro" selected>otro</option>
-            </select>
-          </div>
-          <div>
-            <label>Juega desde:</label>
-            <br>
-            <input type="radio" id="mit-griega" name="jugado-desde" value="griega" checked>
-            <label for="mit-griega">La saga griega</label>
-            <input type="radio" id="mit-nordica" name="jugado-desde" value="nordica">
-            <label for="mit-nordica">La saga nórdica</label>
-            <input type="radio" id="ninguna" name="jugado-desde" value="ninguna">
-            <label for="ninguna">No jugué a ningun juego aún</label>
-          </div>
-          <div>
-            <label>¿Que te llamó la atención sobre la saga y te motivó a investigar sobre ella y/o jugarla?</label>
-            <br>
-            <input type="checkbox" id="historia" name="gusto" value="historia">
-            <label for="historia"> Por la interesante historia</label>
-            <input type="checkbox" id="combate" name="gusto" value="combate">
-            <label for="combate"> Por el epico combate</label>
-            <input type="checkbox" id="jugabilidad" name="gusto" value="jugabilidad">
-            <label for="jugabilidad"> Por la buena jugabilidad</label>
-            <input type="checkbox" id="indeciso" name="gusto" value="indeciso">
-            <label for="indeciso"> No estoy seguro</label>
-          </div>
-          <div>
-            <label for="mensaje">Escribe tu mensaje o reporte:</label>
-            <br>
-            <textarea id="mensaje" name="mensaje" rows="4" cols="40" placeholder="Describe tu consulta aquí..." required minlength="10"></textarea>
-          </div>
-        </fieldset>
+        </form>
         <div>
-          <button type="submit">Enviar consulta</button>
-          <button type="reset">Reiniciar</button>
+          <p>Valoración media de la saga:</p>
+          <meter id="valoracion-saga" min="0" max="10" low="4" high="8" optimum="9" value="9">9 de 10</meter>
+          <label for="valoracion-saga">9 / 10</label
         </div>
-      </form>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; Año 2026. Raúl Antonio Carrasco Camacho</p>
-  </footer>
-</body>
+      </section>
+    </main>
+    <footer>
+      <p id="firma-raulantoniocarracocamacho-collab">© 2026 raulantoniocarracocamacho-collab</p>
+    </footer>
+  </body>
 </html>
